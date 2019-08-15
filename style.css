@@ -41,7 +41,7 @@
     flex-direction: column;
     align-items: flex-start;
     height: 130px;
-    width: 288px;
+    width: 300px;
     font-size: 20px;
     color: #ffffff;
     justify-content: space-between;
@@ -59,6 +59,7 @@
     border: none;
     border-radius: 2px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+    background-color: #ffffff;
 }
 .card-container {
     background-color: transparent;
