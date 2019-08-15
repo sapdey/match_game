@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Match Game</title>
+</head>
+<body>
+    <div id="main">
+        <header>
+            <div id="stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <div id="moves">0 Moves</div>
+            <div id="timer">Time: 00h:00m:00s</div>
+            <i class="fa fa-repeat" id='reset' aria-hidden="true"></i>
+        </header>
+        
+        <div>
+            <div id="board"></div>
+        </div>
+
+        <form id="initialform">
+            <div>
+                <label>Name</label>
+                <input type="text" autofocus />
+            </div>
+            <div>
+                <label>Difficulty</label>
+                <select>
+                    <option value="4">Easy</option>
+                    <option value="6">Medium</option>
+                    <option value="8">Hard</option>
+                </select>
+            </div>
+
+            <input type="submit" class="btn" value="Submit">
+        </form>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
